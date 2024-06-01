@@ -160,7 +160,7 @@ const ActiveSaleOrders = () => {
           <Modal isOpen={isOpen} onClose={() => { onClose(); setSelectedOrder(null); }}>
             <ModalOverlay />
             <ModalContent>
-              <ModalHeader style={{ color: "white" }}>Sale Order Form</ModalHeader>
+              <ModalHeader>Sale Order Form</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
                 <SaleOrderFormWrapper

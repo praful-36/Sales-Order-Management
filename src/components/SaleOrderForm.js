@@ -75,7 +75,7 @@ const SaleOrderForm = ({ onClose, onSubmit, defaultValues = {}, readOnly = false
   };
 
   return (
-    <Box as="form" onSubmit={handleSubmit(handleFormSubmit)} p={4} borderWidth={1} borderRadius="lg" style={{color:"white"}}>
+    <Box as="form" onSubmit={handleSubmit(handleFormSubmit)} p={4} borderWidth={1} borderRadius="lg">
 
       <FormControl isRequired>
         <FormLabel>Customer</FormLabel>
