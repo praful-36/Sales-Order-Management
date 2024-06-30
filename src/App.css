@@ -157,6 +157,8 @@ h2 {
 .navbar {
   background-color: #009879;
   padding: 10px;
+  height: 3rem;
+  font-size: 18px;
 }
 
 .navbar-nav {
